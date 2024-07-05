@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Введите математическое выражение в формате: \"a + b\" ");
+        System.out.print("Введите математическое выражение в формате: \"a + b\": ");
         String input = scanner.nextLine();
 
         try {
