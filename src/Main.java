@@ -41,8 +41,8 @@ public class Main {
     static int convertToNumber(String input) throws Exception {
         int a = Integer.parseInt(input);
 
-        if (a > 10) {
-            throw new Exception("Одно или более чисел, которое вы ввели, больше 10");
+        if (a < 1 || a > 10) {
+            throw new Exception("Одно или более чисел, которое вы ввели, меньше 1 или больше 10");
         }
 
         return a;
